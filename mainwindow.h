@@ -22,6 +22,12 @@ private slots:
 
     void on_actionSave_as_triggered();
 
+    void on_actionOpen_triggered();
+
+    void on_actionAbout_triggered();
+
+    void on_actionFind_triggered();
+
 private:
     Ui::MainWindow *ui;
     void updateWindow(Document d);
